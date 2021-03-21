@@ -174,7 +174,7 @@ input[type=search], ::placeholder {
 
 .carousel-item img {
   background-size: cover;
-  max-height: 105vh;
+  min-height: 833px;
   height: 100%;
 }
 /*# sourceMappingURL=styles.css.map */
