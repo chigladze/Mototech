@@ -38,12 +38,11 @@ ul ol {
 
 .search-box {
   position: absolute;
-  right: 20px;
+  right: 7px;
   border: none;
   color: #ff0000;
   border-left: 1px solid #ff0000;
   border-radius: 0;
-  top: 16px;
   font-size: 17px;
   background: transparent;
   width: 40px;
@@ -102,11 +101,6 @@ input[type=search], ::placeholder {
 
 .navbar {
   background-color: #000 !important;
-}
-
-#cover-section {
-  width: 100%;
-  height: 100vh;
 }
 
 .carousel-control-next {
@@ -172,9 +166,77 @@ input[type=search], ::placeholder {
   border: 2px solid #ff0000;
 }
 
-.carousel-item img {
-  background-size: cover;
-  min-height: 833px;
-  height: 100%;
+input::-webkit-input-placeholder {
+  color: #070707;
+}
+
+input:-ms-input-placeholder {
+  color: #070707;
+}
+
+input::-ms-input-placeholder {
+  color: #070707;
+}
+
+input::placeholder {
+  color: #070707;
+}
+
+.last-footer {
+  -webkit-box-shadow: 0 -5px 10px 0 #ff0000;
+          box-shadow: 0 -5px 10px 0 #ff0000;
+}
+
+footer {
+  -webkit-box-shadow: 0 -5px 10px 0 #ff0000;
+          box-shadow: 0 -5px 10px 0 #ff0000;
+}
+
+.resp__hbtn {
+  border: none !important;
+  outline: none !important;
+}
+
+.resp__hbtn:focus {
+  outline: none !important;
+  border: none !important;
+  -webkit-box-shadow: inset 0 0 5px 1px #ff0000;
+          box-shadow: inset 0 0 5px 1px #ff0000;
+}
+
+.resp__hbtn:focus .fa-ellipsis-v {
+  color: #ff0000;
+}
+
+/* Responsive here */
+@media all and (max-width: 991px) {
+  .navbar-nav {
+    -webkit-box-align: end !important;
+        -ms-flex-align: end !important;
+            align-items: flex-end !important;
+  }
+}
+
+@media all and (max-width: 425px) {
+  #h4 {
+    font-size: 16px;
+  }
+  #h5 {
+    font-size: 14px;
+  }
+  .resp__car-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .resp__footer-social {
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: row !important;
+            flex-direction: row !important;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
