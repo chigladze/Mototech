@@ -1,7 +1,6 @@
 @font-face {
   font-family: 'bpg_mrgvlovani_caps';
   src: url("../fonts/bpg_mrgvlovani_caps_2010.ttf");
-  font-display: optional;
 }
 
 * {
@@ -24,7 +23,7 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: #ebebeb !important;
+  background-color: #ff0000 !important;
   border-radius: 10px;
 }
 
@@ -102,69 +101,6 @@ input[type=search], ::placeholder {
 
 .navbar {
   background-color: #000 !important;
-}
-
-.carousel-control-next {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0px !important;
-  z-index: 1;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  text-align: center;
-  -webkit-transition: opacity .15s ease;
-  transition: opacity .15s ease;
-  outline: none;
-  opacity: 0.3;
-  border: none;
-  width: unset;
-  background: transparent;
-}
-
-.carousel-control-prev {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0px !important;
-  z-index: 1;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  text-align: center;
-  -webkit-transition: opacity .15s ease;
-  transition: opacity .15s ease;
-  outline: none;
-  opacity: 0.3;
-  border: none;
-  width: unset;
-  background: transparent;
-}
-
-.carousel-item h5 {
-  color: #ff0000 !important;
-}
-
-.carousel-item p {
-  color: #ff0000 !important;
-}
-
-.carousel-item .carousel-caption {
-  background: #fff6;
-  border: 2px solid #ff0000;
 }
 
 input::-webkit-input-placeholder {

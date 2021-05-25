@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ka">
 
 <head>
     <meta charset="UTF-8">
@@ -23,50 +23,181 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <img src="../imgs/logo.png" alt="ლოგო" width="150" height="40">
+            <a class="navbar-brand" href="#">
+                <img src="imgs/logo.png" alt="ლოგო" width="382" height="132">
                 </a>
-
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">მთავარი</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                კატეგორია
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="motorcycles.html">მოტოციკლეტი</a></li>
-                                <li><a class="dropdown-item" href="scooter.html">სკუტერი</a></li>
-                                <li><a class="dropdown-item" href="items.html">ინვენტარი</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="about.html">ჩვენ შესახებ</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">კონტაქტი</a>
-                        </li>
+    
+            <button class="navbar-toggler resp__hbtn" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fas fa-ellipsis-v p-2"></i>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">მთავარი</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        კატეგორია
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="motorcycles.html">მოტოციკლეტი</a></li>
+                        <li><a class="dropdown-item" href="scooter.html">სკუტერი</a></li>
+                        <li><a class="dropdown-item" href="items.html">ინვენტარი</a></li>
                     </ul>
-                    <form class="d-flex">
-                        <input class="me-2 nav-search" type="search" placeholder="ძებნა">
-                        <button class="search-box" type="submit">
-                            <i class="fas fa-search"></i>
-                        </button>
-                    </form>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">ჩვენ შესახებ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">კონტაქტი</a>
+                    </li>
+                    </ul>
+                <form class="d-flex position-relative">
+                    <input class="me-2 nav-search" type="search" placeholder="ძებნა">
+                    <button class="search-box" type="submit">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </form>
                 </div>
             </div>
         </nav>
     </header>
     <!-- /navigation bar end here -->
+
+    <!-- breadcrumb -->
+    
+    <div class="container my-5">
+        <div class="row">
+            <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);"
+                aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html" class="text-danger">მთავარი</a></li>
+                    <li class="breadcrumb-item active text-white" aria-current="page">კონკრეტული</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+    
+    <!-- moto info -->
+    
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-lg-4">
+                <img src="imgs/cardbike.png" class="img-fluid" alt="..." title="ბაიკის სურათი" loading="Lazy" width="100%"
+                    height="auto">
+            </div>
+            <div class="col-lg-4">
+                <p class="fw-bold pb-3">მახასიათებლები <span class="text-danger">*</span></p>
+                <table class="table text-white table-sm small">
+                    <tbody>
+                        <tr>
+                            <th>ძრავი:</th>
+                            <td>499.6cc 2ცილინდრი (4 ტაქტიანი)</td>
+                        </tr>
+                        <tr>
+                            <th>სიმძლავრე:</th>
+                            <td>47.6 Hp</td>
+                        </tr>
+                        <tr>
+                            <th>თორქი:</th>
+                            <td>45Nm@5000rpm</td>
+                        </tr>
+                        <tr>
+                            <th>გაგრილების სისტემა:</th>
+                            <td>სითხეზე გაგრილებადი</td>
+                        </tr>
+                        <tr>
+                            <th>გადაცემათა კოლოფი:</th>
+                            <td>6 სიჩქარიანი / მექანიკური</td>
+                        </tr>
+                        <tr>
+                            <th>საწვავის ავზის მოცულობა:</th>
+                            <td>15 ლიტრი + 5ლიტრი რეზერვი</td>
+                        </tr>
+                        <tr>
+                            <th>საბურავი წინა / უკანა (წნევა):</th>
+                            <td>110/80-R19 (2,0 ბარი) / 150/70-R17 (2,25 ბარი)</td>
+                        </tr>
+                        <tr>
+                            <th>მშრალი წონა (კგ):</th>
+                            <td>170</td>
+                        </tr>
+                        <tr>
+                            <th>სავარძლის სიმაღლე (მმ):</th>
+                            <td>795</td>
+                        </tr>
+                        <tr>
+                            <th>ძრავის უმოქმედო სიჩქარე:</th>
+                            <td>1450 ± 100 წთ / წთ</td>
+                        </tr>
+                        <tr>
+                            <th>ძრავის უმოქმედო სიჩქარე:</th>
+                            <td>1450 ± 100 წთ / წთ</td>
+                        </tr>
+                        <tr>
+                            <th>კარბურატორის საჰაერო ხრახნი:</th>
+                            <td>EINSPRITZUNG</td>
+                        </tr>
+                        <tr>
+                            <th>სტარტერი:</th>
+                            <td>ელექტრო</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-lg-4">
+                <p class="fw-bold pb-3">შესაძლებლობები <span class="text-danger">*</span></p>
+                <table class="table text-white table-sm small">
+                    <tbody>
+                        <tr>
+                            <th>მაქსიმალური სიჩქარე:</th>
+                            <td>320.0 km/h (174.6 mph) </td>
+                        </tr>
+                        <tr>
+                            <th>ძრავის ზეთი ფილტრაციის გარეშე:</th>
+                            <td>1,0 ლ SAE 10W-30</td>
+                        </tr>
+                        <tr>
+                            <th>ძრავის ზეთი ფილტრით:</th>
+                            <td>1,3 ლ წთ. API SE</td>
+                        </tr>
+                        <tr>
+                            <th>გამაგრილებელი</th>
+                            <td>1,0 ლიტრი</td>
+                        </tr>
+                        <tr>
+                            <th>სარქველების რაოდენობა თითო ცილინდრზე</th>
+                            <td>2</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-lg-7 my-5">
+                <p class="fw-bold fs-6 text-center pb-2 border-bottom border-danger">ტესტდრაივ ვიდეო</p>
+                <iframe class="ratio" width="300" height="400" src="https://www.youtube.com/embed/ad35eMApHm8"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="col-lg-5 my-5">
+                <p class="fw-bold fs-6 text-center pb-2 border-bottom border-danger">მოტოს შესახებ</p>
+                <p>
+                    KAWASAKI ZX-10 Ninja ს გააჩნია მკვეთრი და აგრესიული დიზაინი, რომელიც შთაგონებულია Z სერიის უფრო დიდი
+                    ველოსიპედით.
+                    კუნთოვანი სხეული და Sugomi– ს დიზაინის ელემენტები შთააგონებს მას. მას ახდენს 399 cc პარალელური ტყუპი
+                    ძრავა, რომელიც 6-სიჩქარიან კოლოფიზეა შერწყმული. იგი იყენებს საწვავის ინჟექციის სისტემას ორმაგი გაზის
+                    სარქველებით. ამ ქუჩის მებრძოლი ქმნის 45 PS მაქსიმალური სიმძლავრის 10,000 rpm და 38 Nm პიკური ბრუნვის
+                    სიჩქარეს 8,000 rpm. KAWASAKI ZX-10 Ninja მაქსიმალური სიჩქარეა 170 კმ / სთ, რაც ძალიან შთამბეჭდავია ქუჩის
+                    მებრძოლისთვის.
+                </p>
+            </div>
+        </div>
+    </div>
+    </div>
 
     <footer id="footer-section" class="footer">
         <div class="container-fluid p-5">
@@ -105,8 +236,6 @@
                 {{ Oto Tchighladze }}
             </a>
         </div>
-        </div>
-        </div>
     </footer>
 
     <!-- main js -->
@@ -119,5 +248,4 @@
         integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG"
         crossorigin="anonymous"></script>
 </body>
-
 </html>
